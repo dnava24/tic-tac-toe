@@ -6,10 +6,10 @@ body {
 	align-items: center;
 	flex-direction: column;
 	height: 100vh;
-	background-color: darkslategray;
+	background-color: rgb(33,41,48);
 }
 #gameboard {
-	background-color: darkslategray;
+	background-color: #272760;
 	width: 300px;
 	height: 300px;
 	display: flex;
@@ -23,7 +23,7 @@ body {
 .square {
 	width: 100px;
 	height: 100px;
-	background-color: whitesmoke;
+	background-color: #442768;
 	border: solid 2px black;
 	box-sizing: border-box;
 	display: flex;
@@ -34,7 +34,7 @@ body {
 	height: 90px;
 	width: 90px;
 	border-radius: 50%;
-	border: 15px solid green;
+	border: 15px solid #0cffe1;
 	box-sizing: border-box;
 }
 
@@ -49,7 +49,7 @@ body {
 .cross:after {
 	content: "";
 	position: absolute;
-	background-color: red;
+	background-color: #ed1e79;
 }
 .cross:before {
 	left: 50%;
@@ -63,10 +63,22 @@ body {
 	margin-top: -15%;
 	width: 100%;
 }
+
 #restart {
-	background-color: rgb(213, 239, 194);
-	font-size: 25px;
-	border-style: none;
-	padding: 10px;
-	margin-top: 10px;
+    color: #f32179;
+    padding:10px;
+    border-color: #f32179;
+    font-size: 20px;
+    transition: 0.2s;
+    background-color: transparent;
+    border-radius: 3em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+#restart:hover {
+    color: #fff;
+    background: #f32179;
+    box-shadow: 0 0 10px #f32179, 0 0 30px #f32179, 0 0 60px #f32179;
 }
