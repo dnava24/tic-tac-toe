@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
 body {
 	margin: 0;
 	padding: 0;
@@ -6,7 +8,9 @@ body {
 	align-items: center;
 	flex-direction: column;
 	height: 100vh;
-	background-color: rgb(33,41,48);
+	background-color: #1a1a41;
+	 font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
 }
 #gameboard {
 	background-color: #272760;
